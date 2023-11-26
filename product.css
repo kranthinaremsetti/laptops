@@ -1,0 +1,101 @@
+body{
+    background: linear-gradient(to right, #ffb6c1, #87cefa);
+}
+.individual-product {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.individual-product .image-gallery {
+   position: relative;
+   margin-bottom: 20px;
+}
+
+.individual-product .image-gallery img {
+   max-width: 100%;
+   height: auto;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease-in-out;
+}
+
+.individual-product .thumbnails {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   margin-top: 10px;
+}
+
+.individual-product .thumbnails img {
+   width: 80px;
+   height: 60px;
+   object-fit: cover;
+   cursor: pointer;
+   border: 2px solid transparent;
+   border-radius: 5px;
+   transition: transform 0.3s ease-in-out;
+}
+
+.individual-product .thumbnails img:hover,
+.individual-product .thumbnails img:focus {
+   border-color: #333;
+   transform: scale(1.1);
+}
+
+.individual-product h2 {
+   color: #333;
+   font-size: 1.8em;
+   margin-bottom: 10px;
+}
+
+.individual-product p {
+   color: #666;
+   line-height: 1.6;
+}
+
+ 
+ .individual-product .buy-button {
+    margin-top: 20px;
+ }
+ 
+ .individual-product .buy-button button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+    cursor: pointer;
+ }
+ 
+ .individual-product .buy-button button:hover {
+    background-color: #45a049; /* Darker green on hover */
+ }
+ .button button {
+   align-items: self-start;
+   height: 40px;
+   width :70px;
+   background-color:#4CAF50;
+   font-family: cursive;
+   font-weight: bolder;
+   font-size: larger;
+   border-radius: 10%;
+   color: azure;
+   border-color:white,white;
+ }
+ .button button:hover{
+   background-color: #45a049;
+ }

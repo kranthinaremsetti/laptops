@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: linear-gradient(to right, #ffb6c1, #87cefa); /* Gradient background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    text-decoration: none;
+}
+
+.product {
+    width: 23%;
+    margin: 1%;
+    box-sizing: border-box; 
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+    text-decoration: double;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+}
+
+p:last-child {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+.button button {
+    align-items: self-start;
+    height: 40px;
+    width :70px;
+    background-color:#4CAF50;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 10%;
+    color: azure;
+    border-color:white,white;
+  }
+  .button button:hover{
+    background-color: #45a049;
+  }
+
+/* Media query for smaller screens (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .product {
+        width: 100%;
+        margin: 2% 0;
+    }
+}
