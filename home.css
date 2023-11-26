@@ -1,0 +1,75 @@
+body{
+    background:linear-gradient(to right,#ffb6c1,#87cefa);
+}
+.home{
+   background:linear-gradient(to right,#ffb6c1,#87cefa);
+   padding:20px
+   
+}
+.home-h1{
+   font-size:60px;
+   color:black;
+   font-family:"lobster";
+   text-align: center;
+}
+.home-p1{
+   font-size:40px;
+   color:black;
+   font-family:"bree serif";
+   text-align: center; 
+}
+.home-h2{
+   font-size:50px;
+   color:black;
+   font-family:"lobster";
+   text-align: center;
+   text-decoration:  underline;
+}
+.center{
+   text-align:center;
+   margin-top: 30px;
+   height:10vh;
+   width:20vw;
+   
+  
+}
+.center-1{
+   text-align:center;
+}
+.font{
+   font-size:30px;
+   font-family:"roboto";
+
+}
+.margin{
+   margin:50px;
+}
+/* Existing CSS styles */
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+   .home-h1 {
+       font-size: 40px;
+   }
+
+   .home-p1 {
+       font-size: 20px;
+   }
+
+   .home-h2 {
+       font-size: 30px;
+   }
+
+   .center, .center-1 {
+       width: 90%; /* Adjust width for better mobile view */
+       margin: 10px auto; /* Center align on mobile */
+   }
+
+   .font {
+       font-size: 16px;
+   }
+
+   .margin {
+       margin: 20px;
+   }
+}
