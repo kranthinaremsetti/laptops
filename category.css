@@ -85,6 +85,11 @@ p:last-child {
         margin: 2% 0;
     }
 }
-a{
-    text-decoration:none;
-  }
+.product a {
+    text-decoration: none;
+    color: inherit; /* Use the color of the parent (.product) */
+}
+
+.product a:hover {
+    text-decoration: underline;
+}
