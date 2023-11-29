@@ -85,3 +85,6 @@ p:last-child {
         margin: 2% 0;
     }
 }
+a{
+    text-decoration:none;
+  }
